@@ -1,0 +1,11 @@
+Schedule the Script:
+
+On Windows (using Task Scheduler):
+
+Open Task Scheduler.
+Create a new task and specify the script's location to run. Set the trigger to your desired schedule (e.g., daily, weekly) and provide the necessary authentication and access permissions.
+On Linux/macOS (using cron jobs):
+
+Open your crontab file by running crontab -e in your terminal.
+
+Add an entry to schedule the script. For example, to run it daily at 2:00 PM, add the following line:
